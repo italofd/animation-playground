@@ -7,6 +7,7 @@ import { OrbitControls } from "three/examples/jsm/Addons.js";
 import { CustomMesh } from "./components/dotedSphereWithOrbitControls";
 import { CubeWithPhotos } from "./components/cubeWithPhotos";
 import { Fonts3D } from "./components/3DFonts";
+import { MeshFloor } from "./components/meshFloor";
 
 export default function Home() {
 	const canvasRef = useRef(null);
@@ -23,6 +24,7 @@ export default function Home() {
 					<CustomMesh />
 					<Fonts3D />
 					<CubeWithPhotos />
+					<MeshFloor />
 				</Canvas>
 			</div>
 		</main>

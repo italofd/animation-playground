@@ -20,8 +20,8 @@ export const CustomMesh = () => {
 	//Controls configuration
 	controls.enableDamping = true;
 	controls.enableZoom = true;
-	controls.dampingFactor = 0.005;
-	controls.rotateSpeed = 0.4;
+	controls.dampingFactor = 0.1;
+	controls.rotateSpeed = 0.1;
 
 	useFrame(() => {
 		//The optimal thing would have to be another way to do this, but I'm not sure how to.

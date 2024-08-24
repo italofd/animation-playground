@@ -1,19 +1,8 @@
 "use client";
 import { useFrame } from "@react-three/fiber";
 import { useEffect, useRef } from "react";
-import {
-	BoxGeometry,
-	Mesh,
-	MeshBasicMaterial,
-	SRGBColorSpace,
-	TextureLoader,
-} from "three";
-
-function loadColorTexture(path: string, loader: TextureLoader) {
-	const texture = loader.load(path);
-	texture.colorSpace = SRGBColorSpace;
-	return texture;
-}
+import { BoxGeometry, Mesh, MeshBasicMaterial, TextureLoader } from "three";
+import { loadColorTexture } from "../utils";
 
 export const CubeWithPhotos = () => {
 	const myMesh = useRef<null | Mesh>(null);
