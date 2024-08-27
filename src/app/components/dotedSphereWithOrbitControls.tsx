@@ -10,10 +10,13 @@ export const CustomMesh = () => {
 	const myMesh = useRef<null | Mesh>(null);
 
 	let accelerationRef = useRef(0.01);
+
 	const {
 		camera,
 		gl: { domElement },
 	} = useThree();
+
+	console.log("EVA01", myMesh);
 
 	const controls = new OrbitControls(camera, domElement);
 
