@@ -39,6 +39,8 @@ export const useGUI = ({
 	const gui = useMemo(() => new GUI(), []);
 	const { scene } = useThree();
 
+	gui.close();
+
 	//Ambient Light Section
 	useEffect(() => {
 		const ambientLightsfolder = gui.addFolder("Ambient Lights");

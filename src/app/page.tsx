@@ -5,19 +5,28 @@ import { Lights } from "./components/Lights";
 import { MeshFloor } from "./components/meshFloor";
 import { CustomOrbitControls } from "./components/CustomOrbitControls";
 import { RenderRandomCubes } from "./components/RenderRandomCubes";
+import { Testing } from "./components/Testing";
+import { Stats } from "@react-three/drei";
 
 export default function Home() {
 	const canvasRef = useRef(null);
 
 	return (
-		<main className="flex h-screen bg-slate-200 flex-col items-center justify-between p-24">
-			Pega nois Malandragem 🔥😄🔥
-			<div className="w-full h-full border-2 border-white bg-black">
-				<Canvas ref={canvasRef}>
+		<main className="flex h-screen w-screen bg-slate-200 flex-col items-center justify-between">
+			<div className="min-w-full h-screen border-2 border-white bg-slate-500">
+				<Canvas
+					ref={canvasRef}
+					className="h-full"
+					style={{
+						width: "100%",
+						height: "100%",
+					}}
+				>
 					<Lights />
 					<MeshFloor />
 					<CustomOrbitControls />
-					<RenderRandomCubes />
+					<Testing />
+					<Stats />
 				</Canvas>
 			</div>
 		</main>
