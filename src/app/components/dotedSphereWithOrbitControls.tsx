@@ -1,30 +1,13 @@
 "use client";
 
-import { useFrame, useThree } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import { Mesh } from "three";
 
-import { OrbitControls } from "three/examples/jsm/Addons.js";
-
-export const CustomMesh = () => {
+export const DotedSphereAndOrbitControls = () => {
 	const myMesh = useRef<null | Mesh>(null);
 
 	let accelerationRef = useRef(0.01);
-
-	const {
-		camera,
-		gl: { domElement },
-	} = useThree();
-
-	console.log("EVA01", myMesh);
-
-	const controls = new OrbitControls(camera, domElement);
-
-	//Controls configuration
-	controls.enableDamping = true;
-	controls.enableZoom = true;
-	controls.dampingFactor = 0.1;
-	controls.rotateSpeed = 0.1;
 
 	useFrame(() => {
 		//The optimal thing would have to be another way to do this, but I'm not sure how to.
