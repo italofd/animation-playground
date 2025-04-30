@@ -1,7 +1,7 @@
-import { Caustics, MeshTransmissionMaterial, Stats } from "@react-three/drei";
+import { MeshTransmissionMaterial } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useRef } from "react";
-import { ConeGeometry, CylinderGeometry, Mesh } from "three";
+import { Mesh } from "three";
 import { pickHelper } from "../utils/pickHelper";
 import { clearPickPosition, setPickPosition } from "../utils";
 

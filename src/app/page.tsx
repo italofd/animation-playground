@@ -3,10 +3,9 @@ import { Canvas } from "@react-three/fiber";
 import { useRef } from "react";
 import { Lights } from "./components/Lights";
 import { MeshFloor } from "./components/meshFloor";
-import { CustomOrbitControls } from "./components/CustomOrbitControls";
-import { RenderRandomCubes } from "./components/RenderRandomCubes";
-import { Testing } from "./components/Testing";
 import { Stats } from "@react-three/drei";
+import { PickingAndMoving } from "@/screens/PickingAndMoving";
+import { CustomOrbitControls } from "./components/CustomOrbitControls";
 
 export default function Home() {
 	const canvasRef = useRef(null);
@@ -24,8 +23,8 @@ export default function Home() {
 				>
 					<Lights />
 					<MeshFloor />
-					<CustomOrbitControls />
-					<Testing />
+					<PickingAndMoving />
+					{/* <CustomOrbitControls /> */}
 					<Stats />
 				</Canvas>
 			</div>
