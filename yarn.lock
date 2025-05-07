@@ -2318,6 +2318,11 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+phy-engine@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/phy-engine/-/phy-engine-0.5.9.tgz#8e118e4be4eade6e0e3a47b9232c4460cefb5059"
+  integrity sha512-4Z3b3m1A5g5w1hYxpYwH/QuWRMPfYqMQJLQw8z//Qh5g3CKMM5K6kFX4coPwQfCXoKV7C+vAeWfsNxyX15AdRg==
+
 picocolors@^1.0.0, picocolors@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.1.tgz#a8ad579b571952f0e5d25892de5445bcfe25aaa1"

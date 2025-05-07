@@ -1,0 +1,11 @@
+Model Information:
+* title:	Guitar
+* source:	https://sketchfab.com/3d-models/guitar-f8ccd75e8c2648ffbbc9e6208ed919c1
+* author:	Ya (https://sketchfab.com/Yarik16)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Guitar" (https://sketchfab.com/3d-models/guitar-f8ccd75e8c2648ffbbc9e6208ed919c1) by Ya (https://sketchfab.com/Yarik16) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

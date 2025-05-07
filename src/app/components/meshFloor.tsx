@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
-const planeSize = 40;
+const planeSize = 20;
 
 export const MeshFloor = () => {
 	const myMesh = useRef<null | THREE.Mesh>(null);

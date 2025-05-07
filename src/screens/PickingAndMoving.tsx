@@ -1,14 +1,6 @@
 import { useFrame, useThree } from "@react-three/fiber";
-import { MutableRefObject, RefObject, useEffect, useRef } from "react";
-import {
-	Camera,
-	Event,
-	Mesh,
-	Object3D,
-	Raycaster,
-	Scene,
-	Vector2,
-} from "three";
+import { MutableRefObject, useEffect, useRef } from "react";
+import { Camera, Mesh, Object3D, Raycaster, Scene, Vector2 } from "three";
 
 function onPointerMove(event: MouseEvent, pointer: Vector2) {
 	// calculate pointer position in normalized device coordinates
@@ -49,8 +41,7 @@ export const PickingAndMoving = () => {
 
 	const { gl, camera, scene } = useThree();
 
-	// Testing the scene with first just a vision above 90 degree
-
+	// Testing the scene with first just a vision above
 	useEffect(() => {
 		camera.position.y = 30;
 		camera.position.x = 0;
